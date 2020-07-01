@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ServerList from "./ServerList";
 import { ftpList } from "./ftpList";
 import SearchBox from "./SearchBox";
+import "./App.css";
 
 class App extends Component {
   constructor() {
@@ -22,7 +23,7 @@ class App extends Component {
     });
     return (
       <div className="tc">
-        <h1>BDIX Server List</h1>
+        <h1 className="f1">BDIX Server List</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <ServerList ftpList={filterServer} />
       </div>
