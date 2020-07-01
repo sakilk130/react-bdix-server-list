@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ServerList from "./ServerList";
-import { ftpList } from "./ftpList";
-import SearchBox from "./SearchBox";
+import ServerList from "../components/ServerList";
+import { ftpList } from "../ftpList";
+import SearchBox from "../components/SearchBox";
 import "./App.css";
 
 class App extends Component {
